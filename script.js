@@ -18,7 +18,7 @@ let weather = {
       ".icon"
     ).src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
     document.querySelector(".description").innerText = description;
-    document.querySelector(".temps").innerText = Math.round(temp);
+    document.querySelector(".temp").innerText = Math.round(temp);
     document.querySelector(".humidity").innerText = `Humidity: ${humidity}%`;
     document.querySelector(".wind").innerText = `Wind: ${speed} km/h`;
     document.body.style.backgroundImage =
