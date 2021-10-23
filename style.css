@@ -6,7 +6,7 @@ body {
   align-items: center;
   height: 100vh;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   letter-spacing: 1.1px;
   background: url("sky.jpg") center no-repeat;
 }
@@ -40,7 +40,7 @@ body {
 .city {
   font-weight: 500;
   font-size: 22px;
-  margin-bottom: 0;
+  margin-bottom: -20px;
 }
 
 .city .city-name {
@@ -110,7 +110,7 @@ input {
 
 input::placeholder {
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   letter-spacing: 1.1px;
 }
 
